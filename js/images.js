@@ -7,10 +7,10 @@
     });
     fileImage.addEventListener('change', function(){
         previewFile('imageFile', 'fileImage', 'inputFile' )
-        //previewFile(img, input type file ,textArea);
+        //previewFile(id imagen, input type file , textArea);
     });
 
-		// previewFile(img, num, input)
+		//previewFile(id imagen, input type file , textArea);
 		function previewFile(img, inputFile, input) {
 			
 			var preview = document.getElementById(img);

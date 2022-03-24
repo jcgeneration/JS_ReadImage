@@ -12,18 +12,32 @@
   </head>
   <body>
     <div class="container">
-        <form>
-            <div class="form-group">
-              <label for="fileImage">Selecciona una imagen:</label>
-              <input type="button" class="form-control btn-primary" value="Subir imagen" id="btnFake"> 
-              
-              <input type="file" class="form-control-file" id="fileImage" style="display:none">
-            </div>
-          </form>
-
-          <img id="imageFile" name="imageFile" src="" class="img-responsive" alt="Vista previa de la imagen" title="Vista previa de la imagen">
-          <textarea class="form-control" data-toggle="tooltip" data-placement="bottom" id="inputFile" name="inputFile" value="" placehodler="Imagen del curso" title="Imagen" style="display:block"></textarea>
-    </div>
+      <div class="row">
+        <div class="col">
+          <br/><br/>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-3">
+            <form>
+                <div class="form-group">
+                  <label for="fileImage">Selecciona una imagen:</label>
+                  <input type="button" class="form-control btn-primary" value="Subir imagen" id="btnFake"> 
+                  
+                  <input type="file" class="form-control-file" id="fileImage" style="display:none">
+                </div>
+              </form>
+          </div>
+          <div class="col-6">
+              <img id="imageFile" name="imageFile" src="" alt="Vista previa de la imagen" title="Vista previa de la imagen" />
+          </div><!--col-6-->
+        </div> <!--row-->
+        <div class="row">
+          <div class="col-10">
+            <textarea rows="20" class="form-control" data-toggle="tooltip" data-placement="bottom" id="inputFile" name="inputFile" value="" placehodler="Imagen del curso" title="Imagen" style="display:block"></textarea>
+          </div>
+      </div> <!--row-->
+    </div> <!--container-->
 
 
 
